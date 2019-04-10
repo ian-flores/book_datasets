@@ -26,3 +26,6 @@ tidy_espa <- wide_escuelas %>%
 
 tidy_espa %>%
     write_csv('directorio_escuelas/escuelas_espanol_2018.csv')
+
+tidy_espa %>%
+    write_excel_csv('directorio_escuelas/escuelas_espanol_2018.xlsx')
